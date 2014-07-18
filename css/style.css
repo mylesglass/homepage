@@ -9,11 +9,8 @@ body {
 	color: #444;
 }
 
-#header-bg {
-	
-}
-
 a.box {
+	top: -2em;
 	display: block;
 	width: 50%;
 	height: 250px;
