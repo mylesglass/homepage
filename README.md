@@ -4,7 +4,7 @@ This is a simple homepage that I wanted to make, I was getting tired of the new 
 
 I am new to making things for the web, so I am starting with small projects to help me learn various things. Javascript seems cool.
 
-The header area changes colour depanding on the current local weather and time. I think it's kinda cool.
+The header area changes colour depanding on the current local weather and time. I think it's kinda cool. When you hover over it you get Kanye West quotes, because sometimes that's just what you need.
 
 ### Future plans
 + To use some sort of fluid grid to make the layout responsive for all devices.
