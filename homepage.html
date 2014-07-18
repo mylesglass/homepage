@@ -7,13 +7,16 @@
 		html and css below. At this time(July 2014), it is NOT mobile friendly, I may implement this later if I feel like it is worth it. Bur I don't plan on it, my phone is slow enough as it is. 
 	-->
 		<title>Home</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/weather.css" />
+		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="js/jquery.simpleWeather.min.js"></script>
 		<script src="js/weather.js"></script>
+		<script src="js/quotegen.js"></script>
 		<meta charset="utf-8" />
 		
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/weather.css" />
 	</head>
 
 	<body>
@@ -21,9 +24,7 @@
 			<a class="box">
 				<div class="content">
 					<h1>Home</h1>
-					<p class="description">
-						This is the homepage of Myles Glass.
-					</p>
+					<div class="quote"></div>
 				</div>
 			</a>
 		</div>
