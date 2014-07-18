@@ -12,8 +12,7 @@ $(document).ready(function() {
 
 		// background color
 		// get current time, and parse hour for the days sunset and sunrise
-		//var time = getTime();
-		var time = 5;
+		var time = getTime();
 		var sunset = parseInt(weather.sunset) + 12;
 		var sunrise = parseInt(weather.sunrise);
 
